@@ -1,7 +1,5 @@
-
 div {
   background-color: #B9F8D3;
-
 }
 
 h1 {
@@ -10,4 +8,23 @@ h1 {
 
 body {
   margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.btm-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
 }
